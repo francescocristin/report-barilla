@@ -1,0 +1,117 @@
+@charset "utf-8";
+/*decorazione bordo slider */
+#showrill {
+	border-top-width: 6px;
+	border-bottom-width: 6px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #FFF;
+	border-bottom-color: #FFF;
+	margin-top: 32px;
+	
+	
+	width:1000px;
+	
+	padding-bottom: 354px;
+	
+	margin-left: -20px;
+	
+}
+/*sfondo titoli foto*/
+.items div > div{
+	background-color: #4b4b4b;
+	opacity:0.7;
+	height: 93px;
+	margin-top: 209px;
+	margin-left: 51px;
+	
+	text-align: center;
+	position: absolute;
+	}
+	/*titoli foto*/
+	
+#report2023 {
+		width: 453px;
+		
+	
+}
+#report2022 {
+		width: 421px;
+	
+}
+#report2021 {
+		width: 551px;
+	
+}
+#report2020 {
+	
+	width: 462px;
+	}
+
+#scrollable h3 {
+	font-size: 14px;
+	line-height: 117px;
+}
+
+/*slider*/
+.scrollable .items {
+  
+  width:20000em;
+  position:absolute;
+}
+/* senza cliccare sulla freccia slider visibile solo una foto*/
+.items div {
+	float:left;
+	margin-right: 100px;
+	
+}
+
+
+/*cerotto foto*/
+.items div span {
+	background-image: url(../Images/Index/cerotto.png);
+	height: 95px;
+	width: 95px;
+	position: absolute;
+	}
+	/*cerotto foto sinistra report 2023*/
+.items div .cerottosxreport2023 {
+
+	left: 15px;
+	top: -40px;
+}
+/*cerotto foto destra report 2023*/
+.items div .cerottodxreport2023 {
+	left: 450px;
+	top: 252px;
+}
+/*cerotto foto sinistra report 2022*/
+.items div .cerottosxreport2022 {
+	left: 790px;
+	top: -40px;
+}
+/*cerotto foto destra report 2022*/
+.items div .cerottodxreport2022 {
+	left: 1201px;
+	top: 252px;
+}
+/*cerotto foto sinistra report 2021*/
+.items div .cerottosxreport2021 {
+	left: 1565px;
+	top: -40px;
+}
+/*cerotto foto destra report 2021*/
+.items div .cerottodxreport2021 {
+	left: 2113px;
+	top: 252px;
+}
+/*cerotto foto sinistra report 2020*/
+.items div .cerottosxreport2020 {
+	left: 2340px;
+	top: -40px;
+}
+/*cerotto foto destra report 2020*/
+.items div .cerottodxreport2020 {
+	left: 2804px;
+	top: 252px;
+}

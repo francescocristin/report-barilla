@@ -1,0 +1,239 @@
+@charset "utf-8";
+/*inizializza*/
+* {
+	margin: 0px;
+	padding: 0px;
+}
+/*regole del contenuto visibile dal browser*/
+body {
+	font-family: Lato, sans-serif;
+	color: #FFF;
+	/*background-color: #CCC;*/
+	background-color: #00357b;
+
+}
+/*sito*/
+#master {
+	width: 960px;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ffffff;
+	background-image: url(../Images/Index/sfondo-index.gif);
+	background-repeat: no-repeat;
+	}
+	/*logo e titolo del sito*/
+h1 {
+	float: left;
+	margin-top: 34px;
+	margin-left: -15px;
+}
+/*titolo slider, archivio report*/
+h2 {
+	font-size: 16px;
+	background-color: #012653;
+	padding-top: 6px;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+	margin-left: 20px;
+	padding-left: 20px;
+	width: 160px;
+		font-weight: 400;
+
+}
+/*titoli foto slider*/
+h3 {
+	font-size: 24px;
+	text-transform: uppercase;
+	}
+
+/*prima immagine prima dello slider*/
+#fotofissauno{
+	margin-left: -20px;
+}
+/*immagine dopo archivio report*/
+#fotofissadue{
+	margin-left: -20px;
+}
+
+
+	/*riga tabella contatti*/
+td{
+	padding-bottom: 30px;
+	}
+/*parte superiore del menu*/
+#intro {
+	background-color: #012653;
+	margin-left: -20px;
+	margin-right: -20px;
+	height: 211px;
+	-moz-box-shadow: 0 0 70px #333333;
+	-webkit-box-shadow: 0 0 70px #333333;
+	box-shadow: 0 0 70px #333333;
+	width: 1000px;
+	top: 0px;
+	position: absolute;
+	}
+	
+	/*titolo sito*/
+	#intro div{
+		float:left;
+		margin-left: 50px;
+		margin-top: 80px;
+		
+	}
+
+	/*archivio report*/
+#content {
+	
+	margin-top: 129px;
+	height: 714px;
+	}
+
+/*contenitore chi-siamo*/
+#contentchisiamo {
+	margin-top: 39px;
+	padding-top: 39px;
+	height: 580px;
+}
+/*prima foto della Barilla*/
+#primafotobarilla {
+	float: left;
+	width: 347px;
+}
+/*titoli tabelle*/
+#tabella  h3 {
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+	margin-top: 2px;
+	margin-left: 2px;
+	color: #FFF;
+}
+
+/*lista e titolo archivio report*/
+#contentservizi{
+	margin-top: 81px;		
+}
+
+/*lista archivio report*/
+#contentservizi li {
+	margin-top: 35px;
+	margin-left: 61px;
+	padding-left: 30px;
+	list-style-image: url(../Images/Index/albero-icona.png);
+}
+/*immagine a destra in archivio report*/
+
+#contentservizi li:hover .immagine  {
+	position: absolute;
+	border: 10px solid #FFF;
+	right: 306px;
+		width: 370px;
+		
+}
+
+/*cambia stato delle scritte con sfondo mettendo sopra il cursore*/
+
+#contentservizi li:hover .rollover {
+	background-color: #012653;
+	color: #FFF;
+}
+/*passando sulle scritte delle immagini compare per ogni parola la rispettiva immagine a destra*/
+#report2019:hover .immagine{
+	background-image: url(../Images/Index/report2019.jpg);
+	
+	height: 400px;
+	}
+	#report2018:hover .immagine{
+	background-image: url(../Images/Index/report2018.jpg);
+	height: 357px;
+}
+#report2017:hover .immagine{
+	background-image: url(../Images/Index/report2017.jpg);
+	height: 300px;
+}
+#report2015:hover .immagine{
+	background-image: url(../Images/Index/report2015.jpg);
+	height: 206px;
+}
+#report2013:hover .immagine{
+	background-image: url(../Images/Index/report2013.jpg);
+	height: 180px;
+}
+#report2010:hover .immagine{
+	background-image: url(../Images/Index/report2010.jpg);
+	height: 300px;
+	margin-top: -280px;
+}
+
+/*scritta anni dei report archivio report*/
+#contentservizi a{
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #000;
+	text-decoration: none;
+}
+/*titolo contatti righe con scritte e una barre di testo*/
+
+#contentcontatti {
+	margin-top: 81px;
+}
+/*titolo contatti*/
+#contentcontatti h2 {
+	margin-bottom: 39px;
+}
+/*elenchi scritte per ogni riga*/
+
+#contentcontatti label {
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #000;
+	margin-left: 61px;
+	margin-top: 65px;
+	padding-left: 30px;
+	list-style-type: none;
+}
+
+/*foot del sito*/
+
+#foot {
+	
+	background-color: #012653;
+	/*margin-top: 20px;*/
+	padding-top:100px;
+	/*nuova istruzione*/
+	padding-left: 20px;
+	/*margin-top: 35px;*/
+	margin-right: -20px;
+	margin-left: -20px;
+	-moz-box-shadow: 0 0 70px #333333;
+	-webkit-box-shadow: 0 0 70px #333333;
+	box-shadow: 0 0 70px #333333;
+	height: 228px;
+}
+
+
+
+/*e-mail*/
+#foot a{
+	font-size: 24px;
+	font-weight: normal;
+	text-transform: none;
+	text-decoration: none;
+	color: #FFF;
+
+}
+/*informazioni azienda barilla*/
+#foot p{
+	
+	font-size: 24px;
+	font-weight: normal;
+	text-transform: none;
+	text-decoration: none;
+	color: #FFF;
+	}

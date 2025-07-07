@@ -1,0 +1,131 @@
+@charset "utf-8";
+/*tabella chi siamo*/
+#tabella {
+	height: 476px;
+	width: 598px;
+	float: right;
+}
+/*inizializza*/
+ul.tabs {
+	list-style: none outside none;
+	margin: 0px !important;
+	padding: 0px;
+}
+/*tasti a destra della foto nella pagina chi siamo*/
+ul.tabs li {
+	float: left;
+	height: 42px;
+	width: 199px;
+	position: relative;
+	background-color: #012653;
+	padding-top: 17px;
+	color: #FFF;
+}
+/*cliccando sui tasti*/
+ul.tabs a.current .rosso, ul.tabs a.current :hover {
+	background-image: url(../Images/Chi-siamo/sfondo-titoli-rosso.png);
+	height: 59px;
+	width: 199px;
+	left: 0px;
+	position: absolute;
+	top: 0px;
+	opacity:0.6;
+}
+ul.tabs a {
+	display: block;
+	text-decoration: none;
+}
+/*info sotto i tasti chi siamo*/
+.panes div {
+	display: none;
+	-moz-border-top-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	border-image: none;
+	font-size: 14px;
+	margin-left: 20px;
+	padding-top: 80px;
+	padding-left: 10px;
+}
+/*dati azienda barilla nella pagina chi siamo*/
+.panes p{
+	text-transform: uppercase;
+	color: #000;
+	list-style-type: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: bold;
+	
+}
+#aziendainformazione p{
+	line-height: 50px;
+}
+/*prima informazione azienda barilla*/
+#aziendainformazioneuno  {
+
+	margin-top: 50px;
+	
+	
+}
+
+/*foto brand*/
+#marchi{
+
+	margin-left: 13px;
+	margin-top: 50px;
+}
+
+/*competenze*/
+#fondazioneinfo p{
+	line-height: 40px;
+}
+#fondazioneinfouno{
+
+	margin-top: 50px;
+		
+}
+
+	/*angoli sinistra alto tasti chi siamo a destra foto*/
+.sxtoangolo {
+	background-image: url(../Images/Chi-siamo/angolo-sx-to.gif);
+	background-repeat: no-repeat;
+	height: 10px;
+	width: 10px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+	/*angoli destra alto tasti chi siamo a destra foto*/
+.dxtoangolo {
+	background-image: url(../Images/Chi-siamo/angolo-dx-to.gif);
+	background-repeat: no-repeat;
+	height: 10px;
+	width: 10px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+	/*angoli destra basso tasti chi siamo a destra foto*/
+.dxboangolo {
+	background-image: url(../Images/Chi-siamo/angolo-dx-bo.gif);
+	background-repeat: no-repeat;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	height: 10px;
+	width: 10px;
+}
+
+	/*angoli sinistra basso tasti chi siamo a destra foto*/
+.sxboangolo {
+	background-image: url(../Images/Chi-siamo/angolo-sx-bo.gif);
+	background-repeat: no-repeat;
+	position: absolute;
+	bottom: 0px;
+	height: 10px;
+	width: 10px;
+	left: 0px;
+}

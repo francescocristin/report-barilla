@@ -1,0 +1,56 @@
+/* regole per lo slider */
+
+.scrollable {
+	float:left;
+	}
+
+/* regole avanti e indietro */
+a.browse {
+	display:block;
+	width:164px;
+	height:164px;
+	float:left;
+	cursor:pointer;
+	font-size:1px;	
+	margin-top: 40px;
+	margin-right: 10px;
+	margin-bottom: 40px;
+	margin-left: 10px;
+	padding-right: -800px;
+	padding-left: -600px;
+	padding-top: -970px;
+}
+
+/* freccia destra */
+a.right {
+	margin-left: 730px;
+	background-image: url(../Images/Index/frecciadx.png);
+	background-repeat: no-repeat;
+	height: 64px;
+	width: 64px;
+	margin-top: -250px;
+}
+/* sposta freccia destra con il cursore*/
+a.right:hover {
+	background-position:15px 0px;
+}
+a.right:active { background-position:-60px -30px; }
+
+
+/* freccia sinistra */
+a.left {
+	margin-left: -180px;
+	background-image: url(../Images/Index/frecciasx-showrill.png);
+	background-repeat: no-repeat;
+	height: 64px;
+	width: 64px;
+	margin-top: 190px;
+}
+/* sposta freccia sinistra con il cursore*/
+a.left:hover  { background-position:-15px 0; }
+a.left:active { background-position:-60px 0; }
+
+/* disabilita */
+a.disabled {
+    visibility:hidden !important;
+}

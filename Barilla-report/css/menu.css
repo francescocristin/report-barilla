@@ -1,0 +1,162 @@
+@charset "utf-8";
+a:focus {
+	outline: none;
+}
+/* regola panel*/
+#panel {
+	margin-top: 210px;
+}
+/*regole menu*/
+#nav{
+	width: 100%;
+	height: 1px;/*varierà all'apertura del menu*/
+	background-color: #ba1b2d;
+	margin-left: -20px;
+	padding-right: 40px;
+}
+/*colore scritta report quando si e sulla pagina report*/
+#nav #home{
+	color: #960;
+}
+/*colore scritta report quando si e sulla pagina chi siamo*/
+#nav #chisiamo{
+	color: #960;
+}
+/*colore scritta report quando si e sulla pagina contatti*/
+#nav #contatti{
+	color: #960;
+}
+/*regole scritta contatti*/
+#nav #contattili{
+	margin-left: -26px;	
+	}
+	/*regole etichetta del menu*/
+#etichetta{
+	width:150px;
+	height:45px;
+	margin-left:359px;
+	margin-top:-11px;
+	margin-bottom: 29px;
+	background-color:#ba1b2d;
+	position: relative;
+	padding-top: 10px;
+	padding-left: 70px;
+	padding-bottom: 5px;
+}
+/*regole della scritta menu*/
+#etichetta #menu a{
+float:left;
+font-size:24px;
+text-decoration:none;
+color:#fff;
+}
+/*cambia colore con cursore sopra la scritta menu*/
+#etichetta #menu a:hover{
+color:green;
+}
+/*freccia vicino alla scritta menu*/
+.menufreccia{
+	float:left;
+	width:20px;
+	height:15px;
+	background-image: url(../Images/Index/menufreccia.png);
+	background-repeat: no-repeat;
+	margin-top:5px;
+	margin-left:5px;
+}
+/*regole sui tasti del menu*/
+#nav ul{
+list-style-type:none;
+padding-left:210px;
+padding-top:10px;
+margin-left:60px;
+}
+/*regole sul tasto chi siamo del menu*/
+#nav #chisiamoli{
+	margin-left: 10px;
+}
+/*regole sui tasti del menu*/
+#nav ul li{
+float:left;
+width:174px;
+}
+/*regole sullo stile dei caratteri dei tasti del menu*/
+#nav ul li a{
+    display:none;
+text-decoration:none;
+font-size:24px;
+font-weight:400;
+color:white;
+text-transform:uppercase;
+}
+/* la scritta del tasto del menu diventa arancione quando si naviga sulla rispettiva pagina*/
+#nav ul li a.current{
+color:#f8e96d;
+}
+/*cambia colore verde quando il cursore sta sopra la determinata scritta*/
+.change:hover{
+color:green;
+}
+
+/*angolo sinistro menu*/ 
+#etichetta .angolosx {
+	background-image: url(../Images/Index/angolosx-rosso.gif);
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 10px;
+	width: 10px;
+	left: 0px;
+	bottom: 0px;
+}
+/*angolo destro menu*/
+#etichetta .angolodx {
+	background-image: url(../Images/Index/angolodx-rosso.gif);
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 10px;
+	width: 10px;
+	right: 0px;
+	bottom: 0px;
+}
+/*punte a sinistra della scritta menu*/
+#etichetta .puntesx {
+	background-image: url(../Images/Index/puntesx-rosso.gif);
+	height: 13px;
+	width: 380px;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 10px;
+	right: 219px;
+}
+/*punte a destra della scritta menu*/
+#etichetta .puntedx {
+	background-image: url(../Images/Index/puntedx-rosso.gif);
+	height: 13px;
+	width: 405px;
+		left: 216px;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 10px;
+}
+/*decorazione alberi sopra presente*/
+#etichetta .alberitop {
+	background-image: url(../Images/Index/alberi.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 28px;
+	width: 957px;
+		top: 1460px;
+	left: -360px;
+}
+/*decorazione alberi sotto presente*/
+#etichetta .alberibottom {
+	background-image: url(../Images/Index/alberi.png);
+	height: 30px;
+	width: 957px;
+		top: 2145px;
+			background-repeat: no-repeat;
+	position: absolute;
+left: -360px;
+}
+
+
